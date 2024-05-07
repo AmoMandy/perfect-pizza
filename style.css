@@ -1,0 +1,57 @@
+body {
+   background-color: #dddd25; 
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.pizzas {
+    display: flex;
+}
+
+.pizza {
+     /* box-model */
+      border: 5px solid #B8DBD9;
+      padding: 1em;
+      margin: 1em;
+      margin-bottom: 0.5em;
+      /* margin-left: 0em; */
+      border-radius: 1em;
+     
+}
+
+
+
+.medium_pizza {
+    background-color: #FDF5BF;
+}
+
+.large_pizza {
+    background-color: #FFD5FF;
+}
+
+.small_pizza {
+   background-color: #99EDCC;
+}
+
+.contact_us {
+    background-color: #586F7C;
+}
+
+
+@media (min-width: 760px) {
+
+   /* body {
+        background-color: #5befa5; 
+     } */
+}
+
+@media (min-width: 960px) {
+
+   /* body {
+        background-color: #B47EB3; 
+     } */
+    
+     .pizzas {
+        display: flex;
+    }
+
+}
